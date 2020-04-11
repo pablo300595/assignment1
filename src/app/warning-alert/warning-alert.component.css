@@ -1,0 +1,21 @@
+.card{
+    background-color: rgb(255, 0, 0);
+    font-family: 'lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.card .card-row i{
+    font-size: 2em;
+}
